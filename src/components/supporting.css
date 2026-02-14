@@ -1,0 +1,42 @@
+.supporting-wrapper {
+  padding-top: 60px;
+  padding-bottom: 0;
+    background-image: url("../assets/imgs/supporting_bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;  
+  }
+  .supporting-card {
+    border-radius: 28px;
+    padding: 40px;
+  }
+  .supporting-heading {
+    color: var(--black);
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 140%;
+  }
+  .supporting-heading span {
+    color: var(--greenish); 
+  }
+
+  @media (max-width: 768px) {
+    .supporting-wrapper { 
+      padding-top: 30px;
+        background-image: url("../assets/imgs/supporting_res.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;  
+      }
+
+  
+    .supporting-card {
+      padding: 10px 15px;   /* reduced side spacing */
+    }
+  
+    .supporting-heading {
+      font-size: 30px;      /* smaller heading */
+      line-height: 140%;
+    }
+  
+  }

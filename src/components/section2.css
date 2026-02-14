@@ -1,0 +1,83 @@
+.section2-wrapper {
+  width: 100%;
+  padding: 60px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.section2-card {
+  width: 90%;
+  max-width: 1200px;
+  background: #000;
+  border-radius: 30px;
+  padding: 60px;
+  color: #fff;
+}
+
+
+.building{
+  font-size: 42px;
+  font-weight:600;
+  line-height: 131%;
+}
+/* ROW 1 TEXT */
+.section2-row1 h1 {
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.section2-row1 p span {
+  color:var(--greenish);
+}
+
+/* ROW 2 TEXT */
+.section2-row2 p {
+  font-size: 14px;
+  line-height: 1.7;
+  color: #cfcfcf;
+}
+.bring ul li{
+  /* font-weight: 300; */
+  font-size:20px;
+  color: var(--mid-white);
+  line-height: 40px;
+}
+
+/* LOGO */
+.fu-logo {
+  max-width: 160px;
+}
+
+
+/* MOBILE RESPONSIVE */
+@media (max-width: 768px) {
+
+  .section2-wrapper {
+    padding: 30px 2px;
+  }
+
+  .section2-card {
+    padding: 50px 5px;
+  }
+
+  .building {
+    font-size: 30px;
+    line-height: 150%;
+  }
+
+  .bring {
+    font-size: 14px;
+    line-height: 160%;
+    margin-top: 15px;
+  }
+
+  .section2-row2 {
+    margin-top: 20px !important;
+  }
+  .section2-row2 .col-12 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+

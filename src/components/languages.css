@@ -1,0 +1,32 @@
+/* LANGUAGE BANNER */
+.language-wrapper {
+    width: 100%;
+    overflow: hidden;
+    background: transparent; /* inherits section bg */
+    padding-bottom: 40px;
+  }
+  
+  /* Moving strip */
+  .marquee {
+    display: flex;
+    width: max-content;
+    animation: scroll-left 15s linear infinite;
+  }
+  
+  /* Image styling */
+  .marquee img {
+    height: 120px;          /* adjust based on your design */
+    width: auto;
+    margin-right: 3px;   
+  }
+  
+  /* Animation */
+  @keyframes scroll-left {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  

@@ -1,0 +1,214 @@
+.footer-wrapper {
+  padding-top: 60px;
+  padding-bottom: 0;
+    background-image: url("../assets/imgs/footer_bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .footer-card {
+    padding: 10px;
+  }
+  
+  /* ROW 1 */
+  .footer-title-fu {
+    font-size: 74px;
+    font-weight: 800;
+    line-height: 140%;
+    margin-bottom: 12px;
+    color: var(--black);
+  }
+  
+  .footer-desc {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 160%;
+    color: var(--mid-black);
+  }
+  
+  .footer-logo {
+    max-width: 367px;
+    height: auto;
+    padding: 5%;
+  }
+  
+  .footer-contact-col {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--mid-black);
+  }
+  
+  /* ICON + TEXT ROW */
+  .footer-contact-item {
+    display: flex;
+    align-items: flex-start;
+    gap:10px ;
+    margin-bottom: 20px;
+  }
+  
+  .footer-contact-item img {
+    width: 15px;
+    height: auto;
+    margin-top: 10px; /* aligns icon with first text line */
+  }
+  
+  .footer-contact-item span {
+    line-height: 1.5;
+    max-width: 220px;
+  }
+  
+  /* SOCIAL ICONS */
+  .footer-socials {
+    display: flex;
+    gap: 14px;
+    margin-top: 12px;
+  }
+  
+  .footer-socials img {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+  }
+
+  /* COLUMN */
+.footer-links-col {
+    font-size: 13px;
+  }
+  
+  /* HEADINGS */
+  .footer-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 14px;
+  }
+  
+  /* LIST RESET */
+  .footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* EACH ROW */
+  .footer-links li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  .footer-links li:hover {
+    transform: scale(1.02);
+  }
+  
+  /* ARROW */
+  .footer-links .arrow {
+    font-size: 20px;
+    line-height: 1;
+  }
+  .footer-links li span{
+    font-size: 20px;
+    font-weight: 400;
+  }
+  
+  /* TEXT */
+  .footer-links span:last-child {
+    line-height: 1.4;
+  }
+  
+  
+  /* ROW 3 */
+  .footer-bottom {
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--mid-black);
+  }
+  
+  @media (max-width: 768px) {
+    .footer-wrapper {
+      padding: 30px 5px 20px;   /* less outer spacing */
+      background-image: url("../assets/imgs/footer_res.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    }
+  
+    .footer-card {
+      padding: 20px 10px;        /* tighter card */
+      /* border-radius: 20px; */
+    }
+  
+    .footer-title-fu {
+      font-size: 40px;
+      margin-bottom: 15px;
+    }
+  
+    .footer-desc {
+      font-size: 14px;
+      line-height: 1.6;
+      margin-bottom: 25px;
+    }
+  
+    .footer-logo {
+      max-width: 80%;
+      margin: 5px auto;
+      display: block;
+    }
+  
+    .footer-row-2 {
+      margin-top: 30px !important;
+    }
+
+    .footer-contact-col {
+      margin-bottom:30px;
+    }
+    .footer-contact-item {
+      font-size: 15px;
+      margin-bottom: 12px;
+    }
+    .footer-socials {
+      justify-content: flex-start;
+      margin-top: 10px;
+    }
+    .footer-socials a img {
+      transition: transform 0.3s ease;
+    }
+    .footer-socials a:hover img {
+      transform: scale(1.15);
+    }
+    .footer-links-col {
+      margin-bottom: 30px;   /* spacing between stacked columns */
+    }
+    .footer-title {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+    .footer-links li span {
+      font-size: 15px;
+    }
+    .footer-bottom {
+      margin-top: 20px;
+      font-size: 15px;
+    }
+  }
+  
+  
+
+  .footer-wrapper .footer-contact-item a,
+.footer-wrapper .footer-contact-item a:visited,
+.footer-wrapper .footer-contact-item a:active,
+.footer-wrapper .footer-contact-item a:focus {
+  color: var(--mid-black) !important;
+  text-decoration: none !important;
+  text-align: left;
+  transition: transform 0.3s ease;
+  display: inline-block;
+}
+
+.footer-wrapper .footer-contact-item a:hover {
+  transform: scale(1.02);
+}
+

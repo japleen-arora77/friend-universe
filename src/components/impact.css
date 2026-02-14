@@ -1,0 +1,95 @@
+.impact-wrapper {
+  padding-top: 60px;
+  padding-bottom: 0;
+    background-image: url("../assets/imgs/impact_bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .impact-card {
+    padding: 10px;
+   
+  }
+  
+  /* TITLE */
+  .impact-title {
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 130%;
+    color: var(--black);
+  }
+  
+  .impact-title span {
+    color: var(--greenish);
+  }
+  
+  /* STATS */
+  .impact-item h3 {
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 140%;
+    margin-bottom: 3px;
+    color: var(--mid-black);
+  }
+  
+  .impact-item h3 span {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 140%;
+    margin-left: 2px;
+  }
+  
+  .impact-item p {
+    margin-top: 0%;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 140%;
+    color: var(--mid-black);
+    max-width: 220px;
+  }
+  
+
+
+  @media (max-width: 768px) {
+
+    .impact-wrapper {
+      padding: 30px 10px;   /* less outer spacing */
+      background-image: url("../assets/imgs/impact_res.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    }
+  
+    .impact-card {
+      padding: 25px 15px;   /* tighter card */
+      border-radius: 20px;
+    }
+  
+    .impact-title {
+      font-size: 40px;      /* smaller heading */
+      margin:1px;
+      line-height: 130%;
+      margin-bottom: 20px;
+    }
+  
+    .impact-item {
+      margin-bottom: 30px;
+    }
+  
+    .impact-item h3 {
+      font-size: 80px;      /* smaller numbers */
+      margin-bottom: 6px;
+    }
+  
+    .impact-item h3 span {
+      font-size: 25px;
+    }
+  
+    .impact-item p {
+      font-size: 20px;
+      line-height: 140%;
+    }
+  
+  }
+  

@@ -1,0 +1,98 @@
+.vm-wrapper {
+  padding-top: 60px;
+  padding-bottom: 0;
+    background-image: url("../assets/imgs/vm_bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .vm-card {
+    padding: 10px;
+  }
+  
+  /* LEFT TEXT */
+  .vm-title {
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 140%;
+    color: var(--black);
+  }
+  
+  .vm-title span {
+    color: var(--greenish);
+  } 
+  
+  /* DARK BOXES */
+  .vm-box {
+    background: var(--mid-black);
+    color: var(--white);
+    padding: 20px;
+    border-radius: 20px;
+    height: 100%;
+  }
+  
+  .vm-box h4 {
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    line-height: 140%;
+  }
+  
+  .vm-box p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 143%;
+    color: var(--white);
+  }
+  
+  .vm-box p span {
+    color: var(--greenish);
+    font-weight: 400;
+  }
+  
+
+
+  @media (max-width: 768px) {
+
+    .vm-wrapper {
+      padding: 30px 10px; /* less outer spacing */
+      background-image: url("../assets/imgs/vm_res.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    }
+  
+    .vm-card {
+      padding: 25px 15px; /* reduced inner padding */
+      border-radius: 20px;
+    }
+  
+    .vm-title {
+      font-size: 40px; /* smaller title */
+      line-height: 135%;
+      /* margin:1px; */
+      margin-bottom: 10px;
+    }
+  
+    .vm-box {
+      margin:1px;
+      padding: 15px;
+    }
+  
+    .vm-box h4 {
+      font-size: 30px;
+      margin-bottom: 20px;
+    }
+  
+    .vm-box p {
+      font-size: 14px;
+      line-height: 150%;
+    }
+  
+    /* Reduce spacing between stacked columns */
+    .vm-wrapper .row > div {
+      margin-bottom: 20px;
+    }
+  
+  }
+  
